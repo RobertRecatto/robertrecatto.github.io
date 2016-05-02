@@ -166,20 +166,31 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        <li><a href="https://www.linkedin.com/in/robert-recatto-b4000691"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Contact Me</a>
+                        <li><a data-popup-open="popup-1" href="#">Contact Me</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
+        
+        <div class="popup" data-popup="popup-1">
+            <div class="popup-inner">
+                <h2>Contact Me!</h2><br>
+                <h4>Email:</h4>
+                <p>rrecatto@ucsd.edu</p><br>
+                <h4>Phone:</h4>
+                <p>(951) 252-5373</p><br>
+                <p><a data-popup-close="popup-1" href="#">Close</a></p>
+                <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+            </div>
+        </div>
+        
     </footer>
 
     <!-- jQuery -->
@@ -199,6 +210,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+    <script src="js/contact.js"></script>
     
 </body>
 
